@@ -26,7 +26,6 @@ body:
 
   - type: textarea
     id: steps
-    label: Steps to reproduce
     attributes:
       label: List of steps to reproduce this bug.
       placeholder: |
