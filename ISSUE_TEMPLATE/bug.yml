@@ -1,0 +1,45 @@
+name: 🐛 Bug
+description: Report a bug
+title: '<description>'
+labels: ['bug']
+
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Tell us exactly what happened and what's supposed to happen
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Installation
+      description: How did you install Blip Adons?
+      options:
+        - Chrome Store
+        - Build from source
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+
+  - type: textarea
+    id: Steps to reproduce
+    attributes:
+      label: List of steps to reproduce this bug.
+      placeholder: |
+        - Open the extension popup
+        - Go to snippets
+        - Type 你好
+    validations:
+      required: true
