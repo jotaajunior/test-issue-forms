@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for reporting this bug.
-          - Try to include screenshots, gifs, diagrams or really anything that helps to illustrate the bug.
+          - Try to include screenshots, gifs, diagrams or really anything that helps to demonstrate the bug.
           - Try to write and answer the issue in English.
           - Be kind and patient.
 
