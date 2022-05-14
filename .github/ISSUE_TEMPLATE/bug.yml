@@ -12,10 +12,9 @@ body:
           - Be kind and patient.
 
   - type: checkboxes
-    id: latest-version
     attributes:
       options:
-      - label: I'm using the latest version
+      - label: I'm using the Blip Addons latest version
 
   - type: textarea
     id: context
