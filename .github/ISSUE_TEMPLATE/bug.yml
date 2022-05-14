@@ -11,6 +11,11 @@ body:
           - Try to write and answer the issue in English.
           - Be kind and patient.
 
+  - type: checkboxes
+    id: latest-version
+    attributes:
+      label: I'm using the latest version
+
   - type: textarea
     id: context
     attributes:
@@ -23,7 +28,7 @@ body:
     id: environment
     attributes:
       label: Installation
-      description: How did you install Blip Adons?
+      description: How did you install Blip Addons?
       options:
         - Chrome Store
         - Build from source
