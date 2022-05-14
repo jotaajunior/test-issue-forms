@@ -14,7 +14,8 @@ body:
   - type: checkboxes
     id: latest-version
     attributes:
-      label: I'm using the latest version
+      options:
+      - label: I'm using the latest version
 
   - type: textarea
     id: context
